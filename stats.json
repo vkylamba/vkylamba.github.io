@@ -9,8 +9,8 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----7b824d811f5d7f9fdf2e.js",
-      "path----7b824d811f5d7f9fdf2e.js.map"
+      "path----5717f6f5dfdfb6b4a582.js",
+      "path----5717f6f5dfdfb6b4a582.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-ccefd84f2b0699434e8c.js",
@@ -21,12 +21,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d9730ba18c5ff82e5e1f.js",
-      "component---src-layouts-index-js-d9730ba18c5ff82e5e1f.js.map"
-    ],
-    "path---install-personal-blog-starter": [
-      "path---install-personal-blog-starter-ffb77c8d5e220afa75d9.js",
-      "path---install-personal-blog-starter-ffb77c8d5e220afa75d9.js.map"
+      "component---src-layouts-index-js-033ea16edd1e8caec306.js",
+      "component---src-layouts-index-js-033ea16edd1e8caec306.js.map"
     ],
     "path---index": [
       "path---index-1316629f2faca1dc06d8.js",
@@ -54,22 +50,18 @@
       "component---src-templates-post-template-js-ee0c9cbef38081b4f255.js",
       "component---src-templates-post-template-js-ee0c9cbef38081b4f255.js.map"
     ],
-    "path---setup-algolia-account": [
-      "path---setup-algolia-account-907f0ac417eda93cee38.js",
-      "path---setup-algolia-account-907f0ac417eda93cee38.js.map"
-    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---starters": [
-      "path---starters-b80983bcd08c15b594cc.js",
-      "path---starters-b80983bcd08c15b594cc.js.map"
+      "path---starters-7e545df3ef5d00a1e3b6.js",
+      "path---starters-7e545df3ef5d00a1e3b6.js.map"
     ],
     "app": [
-      "app-d2361b465b620b364e14.js",
+      "app-c1a9fe6156f4c536b234.js",
       "build-js-styles.css",
-      "app-d2361b465b620b364e14.js.map",
+      "app-c1a9fe6156f4c536b234.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
