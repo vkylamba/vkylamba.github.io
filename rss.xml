@@ -1,22 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PersonalPage - Vikas Lamba]]></title><description><![CDATA[PersonalPage - Vikas Lamba.]]></description><link>https://vkylamba.githubpages.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 09 Jun 2018 12:15:37 GMT</lastBuildDate><item><title><![CDATA[How to customize the PersonalBlog starter's appearance]]></title><description><![CDATA[The  starter  uses a theme object so base customization is really easy. Find the   file. … Front-end web development To read the whole…]]></description><link>https://vkylamba.githubpages.io/customize-personal-blog-starter/</link><guid isPermaLink="false">https://vkylamba.githubpages.io/customize-personal-blog-starter/</guid><content:encoded>&lt;p&gt;The &lt;a href=&quot;/gatsby-starter-personal-blog/&quot;&gt;starter&lt;/a&gt; uses a theme object so base customization is really easy.&lt;/p&gt;
-&lt;p&gt;Find the &lt;code class=&quot;language-text&quot;&gt;theme.js&lt;/code&gt; file.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;root
-  ├── src
-  │   ├── styles
-  │   │   ├── colors.js
-  │   │   ├── globals.js
-  │   │   └── theme.js&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PersonalPage - Vikas Lamba]]></title><description><![CDATA[PersonalPage - Vikas Lamba.]]></description><link>https://vkylamba.githubpages.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 10 Jun 2018 14:38:39 GMT</lastBuildDate><item><title><![CDATA[Home energy monitoring with IoT Dashboard]]></title><description><![CDATA[A few months back I started working on the IoT Dashboard project, to visualize the data I have been gathering from my Energy meter installed…]]></description><link>https://vkylamba.githubpages.io/IoT-dashboard-energy-monitoring/</link><guid isPermaLink="false">https://vkylamba.githubpages.io/IoT-dashboard-energy-monitoring/</guid><content:encoded>&lt;p&gt;A few months back I started working on the IoT Dashboard project, to visualize the data I have been gathering from my Energy meter installed at home. The energy meter is based on Atmega328 controller and sends data periodically to the server over GPRS network. It was build using the &lt;a href=&quot;https://github.com/vkylamba/openiotboard&quot;&gt;Open IoT Development Board&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;…&lt;/p&gt;
-&lt;h4&gt;Front-end web development&lt;/h4&gt;
-&lt;p&gt;To read the whole instruction article - &lt;a href=&quot;https://dev.greglobinski.com/customize-personal-blog-starter/&quot;&gt;How to customize the personalBlog starter’s appearance&lt;/a&gt; - you have to move to &lt;a href=&quot;https://dev.greglobinski.com&quot;&gt;Front-end web development with Greg&lt;/a&gt; website.&lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;p&gt;Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;
+&lt;h4&gt;Setting up IoT Dashboard&lt;/h4&gt;
+&lt;p&gt;Let’s start with creating an account on &lt;a href=&quot;https://data.okosengineering.com/user/login&quot;&gt;IoT Dashboard&lt;/a&gt;.
+
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-699d0.jpg&quot;
+    href=&quot;/static/signup-5683dc46db98ec483fca393e1df60598-7119c.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 160.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAABYlAAAWJQFJUiTwAAACoElEQVRIx6VWPbPSQBTlF1rZWGjhWLzCxnHG2j9g54ydf8MZLZyHjUMBD3gBBgISQggESICQQL443ruQyDfJc5mT3WTZs/fj7E1ylmWh0+mgXq9jOp2i11NQKhZRq0l4KBWh6wPYto3ZbIb5fH4TOSZUVRWKohChCaWnoVKto9GQIdWa0LQhFouFIExDmuMLW7Bc2jCtGRR1AlWjTfomegRVmyZkaZDji+d58H0fQeAjigJE4Q67cRAEYv4S4nn2RBBuNhtw4z6KCNTH43guTUsIoyi6unCz2+AS4v8khGEYioeyLKNQKECSJFSrVRQp291uN1lwabMTQraQm2EYqFQqyOfzlOWGGPf7/eyE+6ZfW5TZQs6W67pYr9cia3FsM8fwn8sjlEoPkB4fUS6XSVfzmxbuW3pCuF6tYJomTDqC4/FY6HMrn+giLsbwXOMFrID9fp/opsvccxxTtSMjzhJa5G6z2aSK0xPFot1uC/B9h3qVJKRpAyGvVDHksSy30Wq1hMiZlO/ltowWbcQiZzBhtIvtk3R46zhetJADH1cQzvA1HaZymUniIuoRaVaLTwgdx8FwOBQa9P1AJFLIJOtJEROnex6Af6mFnbjsh3BcH+4qoPMcin6LEN6a9LmJsrm8dALoIxej8QrGxKWxQ2MX2tCh4+iQ/+HW3rTFwXWWFEMdWl+leNr/nxR76aGv29AEiNxwD8DW7oM9WNhbNUTnCM8WiKfUw+0EMJmuMKB46YYjLFzYXop6eERo0ctdaNAN8P7jb7x8e4/X737hxd1PfP4q7arQJv07JSF0fNx9uMfzN9+J7AeevfqGT19KB4SZXdZHNro9iz5BZvhDvWm5e05lyDIXhWtV+xbi10RCOJlMxPk1jCPQs3EG8JfcXyMsrwWvyAiEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;signup&quot;
+        title=&quot;&quot;
+        src=&quot;/static/signup-5683dc46db98ec483fca393e1df60598-7119c.png&quot;
+        srcset=&quot;/static/signup-5683dc46db98ec483fca393e1df60598-155a8.png 200w,
+/static/signup-5683dc46db98ec483fca393e1df60598-38447.png 400w,
+/static/signup-5683dc46db98ec483fca393e1df60598-7119c.png 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;We are presented with the following page on signup.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-629ce.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -28,19 +51,21 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 46.08233731739708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAByOzlwwgf/8QAGxAAAgEFAAAAAAAAAAAAAAAAAQIxAxIiM0L/2gAIAQEAAQUCVLQXyM1tXTT/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ASf/xAAYEAACAwAAAAAAAAAAAAAAAAAAASAhMf/aAAgBAQAGPwK2bH//xAAZEAACAwEAAAAAAAAAAAAAAAAAARAhMXH/2gAIAQEAAT8hS99GVdIuNx4g/9oADAMBAAIAAwAAABBrz//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAETH/2gAIAQIBAT8Qwj//xAAaEAEAAgMBAAAAAAAAAAAAAAABACERMaGx/9oACAEBAAE/ECpIXoIWLNWxKCX252Hs5ybZ/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 57.301808066759385%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABP0lEQVQoz6WQ3U7CQBBG+4RKRG/EgFcmPpoKhufgAfhPu9vdJtBC2hJC0kL53BnYUiQYo5ucznRm53S7TuOli+ZrF7XGO+qtT9wb6q0Obh/fcHOk9vRxHZ5r4+G5g7tmG85yGWM2jxDHCbbbHXa7PbJ8CyE1fF9D6QDzeVgyO3JRm1EewcHZ2vOzKAoEQQAhhJFKSCkgTS6EB19KrlFONe7JQ09rBSddrbBer1liF+VKabiuC8/zmIPcx3g8xnA4NLkydVH2XdfjmrNYLBAnCTabDfI8Z7IsM1/TpYjiZDJBv99Hr9djBoMB16p7lDLClTkhkaYpEiO2UNNuppPS8Gg04jidTsucemfCqoSkVkzN779sqb6fftnlK3GsxIpspKsIwxBRFHH8CbuHZs6EVSlhr+O30MzVE/6VixP+ly/aQhuGL1zPYwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;unsplash.com&quot;
+        alt=&quot;dashboard&quot;
         title=&quot;&quot;
-        src=&quot;/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-78f2b.jpg&quot;
-        srcset=&quot;/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-dce19.jpg 200w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-c1413.jpg 400w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-78f2b.jpg 800w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-ab4c4.jpg 1200w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-699d0.jpg 1506w&quot;
+        src=&quot;/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-48538.png&quot;
+        srcset=&quot;/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-bed0f.png 200w,
+/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-5fd34.png 400w,
+/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-48538.png 800w,
+/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-b70ec.png 1200w,
+/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-d134a.png 1600w,
+/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-f6ead.png 2400w,
+/static/dashboard-de95d445ebdf47fdab301d52abd4cc0e-629ce.png 2876w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
     &lt;/span&gt;
@@ -48,13 +73,5 @@
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.&lt;/p&gt;
-&lt;h3&gt;Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.&lt;/h3&gt;
-&lt;p&gt;Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.&lt;/p&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. . Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
-&lt;h3&gt;Aenean bibendum iaculis mi, nec blandit lacus interdum vitae&lt;/h3&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/p&gt;
-&lt;h3&gt;Donec hendrerit laoreet risus eget adipiscing.&lt;/h3&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Lets add a new device now. Select the device type to be “Home”, Give a name to the device, and put the address. Once your device is created, it gets listed on the left side bar. Click on the device and it should show the API URL, and API key where your device can dump the data. An example of data point is also given.&lt;/p&gt;
+&lt;p&gt;…&lt;/p&gt;</content:encoded></item></channel></rss>
